@@ -4,40 +4,40 @@ public class HomeWork_16 {
 
     public static void main(String[] args) {
 
-        Student Ivan = new Student();
-        Ivan.introduceYourself();
+        Student ivann = new Student();
+        ivann.introduceYourself();
         System.out.println("===========================================");
 
-        Student Igor = new Student(21);
-        Igor.introduceYourself();
-        System.out.println("I am " + Igor.age + " years old!");
-
-        System.out.println("===========================================");
-
-        Student Petr = new Student(20,3);
-        Petr.introduceYourself();
-        System.out.println("I am " + Petr.age + " years old!");
-        System.out.println("I am a " + Petr.course + " course student.");
+        Student igor = new Student(21);
+        igor.introduceYourself();
+        System.out.println("I am " + igor.age + " years old!");
 
         System.out.println("===========================================");
 
-        Student Vova = new Student(21,4,"Mathematics");
-        Vova.introduceYourself();
-        System.out.println("I am " + Vova.age + " years old!");
-        Vova.placeOfStudy();
-        System.out.println("I am a " + Vova.course + " course student.");
-        System.out.println("I'm a student at the faculty of " + Vova.faculty);
+        Student petr = new Student(20,3);
+        petr.introduceYourself();
+        System.out.println("I am " + petr.age + " years old!");
+        System.out.println("I am a " + petr.course + " course student.");
+
+        System.out.println("===========================================");
+
+        Student vova = new Student(21,4,"Mathematics");
+        vova.introduceYourself();
+        System.out.println("I am " + vova.age + " years old!");
+        vova.placeOfStudy();
+        System.out.println("I am a " + vova.course + " course student.");
+        System.out.println("I'm a student at the faculty of " + vova.faculty);
 
         System.out.println("==========================+++++++++++++++=================");
 
-        Student Sasha = new Student(22,5,"History", "conduct excursions");
-        Sasha.introduceYourself();
-        System.out.println("I am " + Sasha.age + " years old!");
-        Sasha.placeOfStudy();
-        System.out.println("I am a " + Sasha.course + " course student.");
-        System.out.println("I'm a student at the faculty of " + Sasha.faculty);
-        System.out.println("with a great pleasure i will " +Sasha.skills+ " for you!");
-        Sasha.bye();
+        Student sasha = new Student(22,5,"History", "conduct excursions");
+        sasha.introduceYourself();
+        System.out.println("I am " + sasha.age + " years old!");
+        sasha.placeOfStudy();
+        System.out.println("I am a " + sasha.course + " course student.");
+        System.out.println("I'm a student at the faculty of " + sasha.faculty);
+        System.out.println("with a great pleasure i will " +sasha.skills+ " for you!");
+        sasha.bye();
 
         System.out.println("++++++++++++++++++++++++ BOOK ++++++++++++++++++++++++++++++");
 
