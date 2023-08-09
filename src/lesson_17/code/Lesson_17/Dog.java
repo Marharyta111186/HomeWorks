@@ -21,7 +21,7 @@ public class Dog {
         System.out.println("Я прыгаю !!");
     }
     void jump(int height) {
-        System.out.println("Я перепрыгиваю барьер!!" + height+ " sm");
+        System.out.println("Я перепрыгиваю барьер!!" + height+ " см!");
     }
 
     void getBarrier(int barrierHeight){ //
@@ -33,12 +33,12 @@ public class Dog {
         if (jumpHeight>= barrierHeight){
             jump(barrierHeight);
         } else {
-        System.out.println(" я не могу перепрыгнуть барьер высотой " + barrierHeight);
+        System.out.println(" Я не могу перепрыгнуть барьер высотой " + barrierHeight);
         }
-        System.out.println("End get barrier. Текущий прыжок " + jumpHeight);
+        System.out.println("Текущий прыжок " + jumpHeight);
     }
     void training() {
-        System.out.println("start training ");
+        System.out.println("Начинаю тренировку! ");
         if (jumpHeight + 10 <= maxJumpHeight) {
             jumpHeight += 10;
             System.out.println("Я потренировался , высота прыжка теперь " + jumpHeight);
